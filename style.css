@@ -1,0 +1,444 @@
+* {
+  box-sizing: border-box;
+
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-image:url(https://kartinkin.net/uploads/posts/2021-04/thumbs/1617605716_36-p-fon-vosmoe-marta-49.jpg);
+  background-size: cover;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 15px 15px;
+  /* border: 1px solid black; */
+ 
+}
+
+.header-inner {
+  margin: auto;
+  display:flex;
+  flex-direction:column;
+ 
+  
+}
+audio{
+  align-self: center;
+}
+p {
+  background-color: rgba(246, 221, 228, 0.6);
+  font-weight: bold;
+  line-height: 1.5;
+  border-radius: 10px;
+  margin: 20px 0 20px 400px;
+  color:  	#0000CD;
+  font-family: cursive, sans-serif;
+  animation-duration: 1s;
+  animation-name: slidein;
+  animation-iteration-count: 1;
+}
+@keyframes slidein {
+  from {
+    margin-left: 100px;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+.img{
+  margin: 15px;
+  /* padding: 15px; */
+  display: flex;
+  flex-wrap: wrap;
+  gap: 100px;
+  justify-content: center;
+
+}
+.box-1 {
+  border-radius: 10%;
+  display: block;
+  width: 100px;
+  height: 100px;
+  background-image: url(https://media.price.ua/wp-content/uploads/2016/03/enlarge_0Xw_750Xh_463.jpg);
+  background-size: 150%;
+  box-shadow: 10px 10px 10px 10px 	#FF69B4;
+  -webkit-transition: width 2s, height 2s, background-img 2s, -webkit-transform 2s;
+  transition: width 2s, height 2s, background-color 2s, transform 2s;
+}
+
+.box-1:hover {
+  background-image: url(./images/1.jpg);
+  width: 200px;
+  height: 200px;
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+  background-size: 100%;
+}
+.box-2 {
+  border-radius: 10%;
+  display: block;
+  width: 100px;
+  height: 100px;
+  background-image: url(https://media.price.ua/wp-content/uploads/2016/03/enlarge_0Xw_750Xh_463.jpg);
+  background-size: 150%;
+  box-shadow: 10px 10px 10px 10px 	#FF69B4;
+  -webkit-transition: width 2s, height 2s, background-img 2s, -webkit-transform 2s;
+  transition: width 2s, height 2s, background-color 2s, transform 2s;
+}
+
+.box-2:hover {
+  background-image: url(./images/2.jpg);
+  width: 200px;
+  height: 200px;
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+  background-size: 100%;
+}
+
+.box-3 {
+  border-radius: 10%;
+  display: block;
+  width: 100px;
+  height: 100px;
+  background-image: url(https://media.price.ua/wp-content/uploads/2016/03/enlarge_0Xw_750Xh_463.jpg);
+  background-size: 150%;
+  box-shadow: 10px 10px 10px 10px 	#FF69B4;
+  -webkit-transition: width 2s, height 2s, background-img 2s, -webkit-transform 2s;
+  transition: width 2s, height 2s, background-color 2s, transform 2s;
+}
+
+.box-3:hover {
+  background-image: url(./images/3.jpeg);
+  width: 200px;
+  height: 200px;
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+  background-size: 100%;
+}
+.box-4 {
+  border-radius: 10%;
+  display: block;
+  width: 100px;
+  height: 100px;
+  background-image: url(https://media.price.ua/wp-content/uploads/2016/03/enlarge_0Xw_750Xh_463.jpg);
+  background-size: 150%;
+  box-shadow: 10px 10px 10px 10px 	#FF69B4;
+  -webkit-transition: width 2s, height 2s, background-img 2s, -webkit-transform 2s;
+  transition: width 2s, height 2s, background-color 2s, transform 2s;
+}
+
+.box-4:hover {
+  background-image: url(./images/4.jpeg);
+  width: 200px;
+  height: 200px;
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+  background-size: 100%;
+}
+.box-5 {
+  border-radius: 10%;
+  display: block;
+  width: 100px;
+  height: 100px;
+  background-image: url(https://media.price.ua/wp-content/uploads/2016/03/enlarge_0Xw_750Xh_463.jpg);
+  background-size: 150%;
+  box-shadow: 10px 10px 10px 10px 	#FF69B4;
+  -webkit-transition: width 2s, height 2s, background-img 2s, -webkit-transform 2s;
+  transition: width 2s, height 2s, background-color 2s, transform 2s;
+}
+
+.box-5:hover {
+  background-image: url(./images/5.jpg);
+  width: 200px;
+  height: 200px;
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+  background-size: 100%;
+}
+.box-6{
+  border-radius: 10%;
+  display: block;
+  width: 100px;
+  height: 100px;
+  background-image: url(https://media.price.ua/wp-content/uploads/2016/03/enlarge_0Xw_750Xh_463.jpg);
+  background-size: 150%;
+  box-shadow: 10px 10px 10px 10px 	#FF69B4;
+  -webkit-transition: width 2s, height 2s, background-img 2s, -webkit-transform 2s;
+  transition: width 2s, height 2s, background-color 2s, transform 2s;
+}
+
+.box-6:hover {
+  background-image: url(./images/6.jpg);
+  width: 200px;
+  height: 200px;
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+  background-size: 100%;
+}
+.box-7 {
+  border-radius: 10%;
+  display: block;
+  width: 100px;
+  height: 100px;
+  background-image: url(https://media.price.ua/wp-content/uploads/2016/03/enlarge_0Xw_750Xh_463.jpg);
+  background-size: 150%;
+  box-shadow: 10px 10px 10px 10px 	#FF69B4;
+  -webkit-transition: width 2s, height 2s, background-img 2s, -webkit-transform 2s;
+  transition: width 2s, height 2s, background-color 2s, transform 2s;
+}
+
+.box-7:hover {
+  background-image: url(./images/7.jpg);
+  width: 200px;
+  height: 200px;
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+  background-size: 100%;
+}
+.box-8 {
+  border-radius: 10%;
+  display: block;
+  width: 100px;
+  height: 100px;
+  background-image: url(https://media.price.ua/wp-content/uploads/2016/03/enlarge_0Xw_750Xh_463.jpg);
+  background-size: 150%;
+  box-shadow: 10px 10px 10px 10px 	#FF69B4;
+  -webkit-transition: width 2s, height 2s, background-img 2s, -webkit-transform 2s;
+  transition: width 2s, height 2s, background-color 2s, transform 2s;
+}
+
+.box-8:hover {
+  background-image: url(./images/8.jpg);
+  width: 200px;
+  height: 200px;
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+  background-size: 100%;
+}
+.box-9 {
+  border-radius: 10%;
+  display: block;
+  width: 100px;
+  height: 100px;
+  background-image: url(https://media.price.ua/wp-content/uploads/2016/03/enlarge_0Xw_750Xh_463.jpg);
+  background-size: 150%;
+  box-shadow: 10px 10px 10px 10px 	#FF69B4;
+  -webkit-transition: width 2s, height 2s, background-img 2s, -webkit-transform 2s;
+  transition: width 2s, height 2s, background-color 2s, transform 2s;
+}
+
+.box-9:hover {
+  background-image: url(./images/9.png);
+  width: 200px;
+  height: 200px;
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+  background-size: 100%;
+}
+.box-10{
+  border-radius: 10%;
+  display: block;
+  width: 100px;
+  height: 100px;
+  background-image: url(https://media.price.ua/wp-content/uploads/2016/03/enlarge_0Xw_750Xh_463.jpg);
+  background-size: 150%;
+  box-shadow: 10px 10px 10px 10px 	#FF69B4;
+  -webkit-transition: width 2s, height 2s, background-img 2s, -webkit-transform 2s;
+  transition: width 2s, height 2s, background-color 2s, transform 2s;
+}
+
+.box-10:hover {
+  background-image: url(./images/11.jpg);
+  width: 200px;
+  height: 200px;
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+  background-size: 100%;
+}
+.box-11{
+  border-radius: 10%;
+  display: block;
+  width: 100px;
+  height: 100px;
+  background-image: url(https://media.price.ua/wp-content/uploads/2016/03/enlarge_0Xw_750Xh_463.jpg);
+  background-size: 150%;
+  box-shadow: 10px 10px 10px 10px 	#FF69B4;
+  -webkit-transition: width 2s, height 2s, background-img 2s, -webkit-transform 2s;
+  transition: width 2s, height 2s, background-color 2s, transform 2s;
+}
+
+.box-11:hover {
+  background-image: url(./images/11.jpg);
+  width: 200px;
+  height: 200px;
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+  background-size: 100%;
+}
+.box-12 {
+  border-radius: 10%;
+  display: block;
+  width: 100px;
+  height: 100px;
+  background-image: url(https://media.price.ua/wp-content/uploads/2016/03/enlarge_0Xw_750Xh_463.jpg);
+  background-size: 150%;
+  box-shadow: 10px 10px 10px 10px 	#FF69B4;
+  -webkit-transition: width 2s, height 2s, background-img 2s, -webkit-transform 2s;
+  transition: width 2s, height 2s, background-color 2s, transform 2s;
+}
+
+.box-12:hover {
+  background-image: url(./images/12.jpg);
+  width: 200px;
+  height: 200px;
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+  background-size: 100%;
+}
+.box-13 {
+  border-radius: 10%;
+  display: block;
+  width: 100px;
+  height: 100px;
+  background-image: url(https://media.price.ua/wp-content/uploads/2016/03/enlarge_0Xw_750Xh_463.jpg);
+  background-size: 150%;
+  box-shadow: 10px 10px 10px 10px 	#FF69B4;
+  -webkit-transition: width 2s, height 2s, background-img 2s, -webkit-transform 2s;
+  transition: width 2s, height 2s, background-color 2s, transform 2s;
+}
+
+.box-13:hover {
+  background-image: url(./images/13.jpeg);
+  width: 200px;
+  height: 200px;
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+  background-size: 100%;
+}
+.box-14 {
+  border-radius: 10%;
+  display: block;
+  width: 100px;
+  height: 100px;
+  background-image: url(https://media.price.ua/wp-content/uploads/2016/03/enlarge_0Xw_750Xh_463.jpg);
+  background-size: 150%;
+  box-shadow: 10px 10px 10px 10px 	#FF69B4;
+  -webkit-transition: width 2s, height 2s, background-img 2s, -webkit-transform 2s;
+  transition: width 2s, height 2s, background-color 2s, transform 2s;
+}
+
+.box-14:hover {
+  background-image: url(./images/14.jpg);
+  width: 200px;
+  height: 200px;
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+  background-size: 100%;
+}
+.box-15 {
+  border-radius: 10%;
+  display: block;
+  width: 100px;
+  height: 100px;
+  background-image: url(https://media.price.ua/wp-content/uploads/2016/03/enlarge_0Xw_750Xh_463.jpg);
+  background-size: 150%;
+  box-shadow: 10px 10px 10px 10px 	#FF69B4;
+  -webkit-transition: width 2s, height 2s, background-img 2s, -webkit-transform 2s;
+  transition: width 2s, height 2s, background-color 2s, transform 2s;
+}
+
+.box-15:hover {
+  background-image: url(./images/15.jpg);
+  width: 200px;
+  height: 200px;
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+  background-size: 100%;
+}
+.box-16 {
+  border-radius: 10%;
+  display: block;
+  width: 100px;
+  height: 100px;
+  background-image: url(https://media.price.ua/wp-content/uploads/2016/03/enlarge_0Xw_750Xh_463.jpg);
+  background-size: 150%;
+  box-shadow: 10px 10px 10px 10px 	#FF69B4;
+  -webkit-transition: width 2s, height 2s, background-img 2s, -webkit-transform 2s;
+  transition: width 2s, height 2s, background-color 2s, transform 2s;
+}
+
+.box-16:hover {
+  background-image: url(./images/16.jpeg);
+  width: 200px;
+  height: 200px;
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+  background-size: 100%;
+}
+.box-17 {
+  border-radius: 10%;
+  display: block;
+  width: 100px;
+  height: 100px;
+  background-image: url(https://media.price.ua/wp-content/uploads/2016/03/enlarge_0Xw_750Xh_463.jpg);
+  background-size: 150%;
+  box-shadow: 10px 10px 10px 10px 	#FF69B4;
+  -webkit-transition: width 2s, height 2s, background-img 2s, -webkit-transform 2s;
+  transition: width 2s, height 2s, background-color 2s, transform 2s;
+}
+
+.box-17:hover {
+  background-image: url(./images/17.jpeg);
+  width: 200px;
+  height: 200px;
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+  background-size: 100%;
+}
+.box-18 {
+  border-radius: 10%;
+  display: block;
+  width: 100px;
+  height: 100px;
+  background-image: url(https://media.price.ua/wp-content/uploads/2016/03/enlarge_0Xw_750Xh_463.jpg);
+  background-size: 150%;
+  box-shadow: 10px 10px 10px 10px 	#FF69B4;
+  -webkit-transition: width 2s, height 2s, background-img 2s, -webkit-transform 2s;
+  transition: width 2s, height 2s, background-color 2s, transform 2s;
+}
+
+.box-18:hover {
+  background-image: url(./images/18.jpeg);
+  width: 200px;
+  height: 200px;
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+  background-size: 100%;
+}
+.box-19 {
+  border-radius: 10%;
+  display: block;
+  width: 100px;
+  height: 100px;
+  background-image: url(https://media.price.ua/wp-content/uploads/2016/03/enlarge_0Xw_750Xh_463.jpg);
+  background-size: 150%;
+  box-shadow: 10px 10px 10px 10px 	#FF69B4;
+  -webkit-transition: width 2s, height 2s, background-img 2s, -webkit-transform 2s;
+  transition: width 2s, height 2s, background-color 2s, transform 2s;
+}
+
+.box-19:hover {
+  background-image: url(./images/19.jpg);
+  width: 200px;
+  height: 200px;
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+  background-size: 100%;
+}
+
